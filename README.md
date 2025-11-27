@@ -9,7 +9,7 @@ Multi Scrapper AI is an advanced, Streamlit-powered content intelligence tool th
 It uses Gemini 2.0 Flash and Ollama-based LLM parsing to help users extract insights, answer questions, and create summaries—turning long content into instant knowledge.
 Built for students, researchers, developers, and general users who want quick insights from long content without manual reading.
 
-#✨ Features
+# ✨ Features
 ## 🎥 YouTube Video Summarizer
 
 Extracts transcripts using YouTube Transcript API
