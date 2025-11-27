@@ -1,49 +1,122 @@
-# 🧠 Multiscrapper AI GENAi
-Multiscrapper AI is a multi-source content scraper and AI-powered question-answering system. It allows users to input a PDF file, a webpage URL, or a YouTube video link, and interact with the extracted content using state-of-the-art language models.
+# 🧠 Multi Scrapper AI — All-in-One Content Scraper + AI Parser
 
-# 🔍 What It Does
-📄 PDF Parsing
-Extracts and processes text from uploaded PDFs. You can ask context-aware questions, and answers are generated using Ollama 3.
+Multi Scrapper AI is an advanced, Streamlit-powered content intelligence tool that can scrape, parse, summarize, and analyze data from:
 
-🌐 Web Scraping with CAPTCHA Bypass
-Parses and extracts meaningful content from websites using BeautifulSoup. Supports CAPTCHA and IP block handling via Bright Data proxies. Interacts with the content using Ollama 3.
+✔ YouTube Videos
+✔ PDF Documents
+✔ Websites/HTML Pages
 
-🎥 YouTube Video Analysis
-Automatically retrieves and processes YouTube transcripts. Uses Gemini 4.0 Flash to provide intelligent, relevant answers to your queries based on video content.
+It uses Gemini 2.0 Flash and Ollama-based LLM parsing to help users extract insights, answer questions, and create summaries—turning long content into instant knowledge.
+Built for students, researchers, developers, and general users who want quick insights from long content without manual reading.
 
-# 🤖 Powered By
-BeautifulSoup – HTML parsing and content extraction
+#✨ Features
+## 🎥 YouTube Video Summarizer
 
-Bright Data Proxy – CAPTCHA solving and IP rotation
+Extracts transcripts using YouTube Transcript API
+Detects all available transcript languages automatically
+Summarizes using Gemini 2.0 Flash
+Clean, structured output with subheadings
+Thumbnail preview + Download Summary option
 
-Ollama 3 – Natural language Q&A for PDFs and webpages
+## 📄 PDF Content Parser
 
-Gemini 4.0 Flash – Transcript-based Q&A for YouTube videos
+Extract text using PDFMiner / PyPDF2
+High-accuracy extraction even from complex PDFs
+Shows full extracted text in an expandable view
+Supports deep question-answering with Ollama
 
-PDF parsers – PyMuPDF / PDFMiner for extracting structured text
+## 🌐 Website Scraper + AI Parser
 
-YouTube Transcript API – For pulling video transcripts
+Scrapes webpage content using:
+requests
+BeautifulSoup
+Extracts only relevant <body> content
+Cleans, splits, and prepares DOM text
+AI parsing using Ollama models
+Useful for SEO research, content extraction, competitor analysis, etc.
 
-# 💡 Use Cases
-Automated research and summarization
+## 🤖 Dual AI Engine
+### Gemini 2.0 Flash
 
-Educational tools for video, document, and web content
+#### Used for:
+YouTube transcript summarization
+Fast and accurate content understanding
+Ollama LLM
 
-Assistive tools for reading, analyzing, and querying long documents
+#### Used for:
 
-SEO or content analysis based on competitor web pages or media
+Website content parsing
+PDF question answering
+Custom extraction tasks
 
-# 📌 How It Works
-Input Source: Upload a PDF, paste a URL, or add a YouTube link.
+# 🏗️ Tech Stack
 
-Content Extraction:
+### Backend / Logic
 
-PDFs: Text extracted from pages.
+Python
+Streamlit
+Requests
+BeautifulSoup
+YoutubeTranscriptApi
+PDFMiner / PyPDF2
+Langcodes
 
-Webpages: Content scraped using BeautifulSoup + proxy handling.
+### AI Models
 
-YouTube: Transcript fetched and parsed.
+Gemini 2.0 Flash (Google Generative AI)
+Ollama Models (Local/Hosted)ed data.
 
-Q&A: Ask natural language questions. Answers generated using AI (Ollama 3 or Gemini 4.0 Flash).
+# 📁 Project Structure
+📦 multi-scrapper-ai
+│
+├── main.py                # Streamlit application (UI + logic)
+├── scrape.py              # Web scraping utilities
+├── parse.py               # Ollama-based content parsing
+├── requirements.txt
+└── README.md
 
-Output: Accurate, context-aware responses based on the extracted data.
+# ⚙️ Installation
+## 1️⃣ Clone the repository
+git clone https://github.com/A4xPraddy/MultiScrapperGenAi.git
+## 2️⃣ Install dependencies
+pip install -r requirements.txt
+## 🚀 Run the App
+streamlit run main.py
+
+
+# 🔥 How It Works
+### 1. Select input type
+
+YouTube link
+PDF file
+Website URL
+
+### 2. System extracts content
+
+Fetch transcript
+Extract PDF text
+Scrape website body
+
+### 3. AI analyzes content
+
+Generate structured summaries
+Extract custom information
+Answer user questions
+Convert raw text into knowledge
+
+### 4. Download / view results
+
+Summaries
+Parsed results
+Extracted content
+
+### 🎯 Use Cases
+
+✔ Students preparing notes
+✔ Researchers analyzing multiple sources
+✔ Content writers or SEO analysts
+✔ Journalists fact-checking content
+✔ Developers building AI-assisted tools
+✔ Anyone wanting quick understanding of long content
+
+
