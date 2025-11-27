@@ -112,11 +112,11 @@ Extracted content
 
 ### 🎯 Use Cases
 
-✔ Students preparing notes
-✔ Researchers analyzing multiple sources
-✔ Content writers or SEO analysts
-✔ Journalists fact-checking content
-✔ Developers building AI-assisted tools
-✔ Anyone wanting quick understanding of long content
+✔ Students preparing notes<br>
+✔ Researchers analyzing multiple sources<br>
+✔ Content writers or SEO analysts<br>
+✔ Journalists fact-checking content<br>
+✔ Developers building AI-assisted tools<br>
+✔ Anyone wanting quick understanding of long content<br>
 
 
