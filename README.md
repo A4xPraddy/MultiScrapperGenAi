@@ -66,14 +66,16 @@ Langcodes
 Gemini 2.0 Flash (Google Generative AI)
 Ollama Models (Local/Hosted)ed data.
 
-#  Project Structure
- multi-scrapper-ai
-│
-├── main.py   <br>             # Streamlit application (UI + logic) <br>
-├── scrape.py <br>             # Web scraping utilities <br>
-├── parse.py    <br>           # Ollama-based content parsing <br>
-├── requirements.txt <br>
-└── README.md <br>
+## Project Structure
+
+
+multi-scrapper-ai/
+├── main.py           # Streamlit application (UI + logic)
+├── scrape.py         # Web scraping utilities
+├── parse.py          # Ollama-based content parsing
+├── requirements.txt  # Python dependencies
+└── README.md         # Project documentation
+
 
 #  Installation
 ## Clone the repository
