@@ -1,4 +1,4 @@
-# Multi Scrapper AI — All-in-One Content Scraper + AI Parser
+# Multi Scrapper AI All-in-One Content Scraper + AI Parser
 
 Multi Scrapper AI is an advanced, Streamlit-powered content intelligence tool that can scrape, parse, summarize, and analyze data from:
 
